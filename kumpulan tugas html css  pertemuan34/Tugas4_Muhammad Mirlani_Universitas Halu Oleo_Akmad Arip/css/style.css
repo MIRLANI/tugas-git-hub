@@ -1,0 +1,92 @@
+body{
+    /* untuk mereset */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: black;
+    /* untuk mengubah supaya herizontal */
+    display: flex;
+    /* supaya menuju ke kanan */
+    justify-content:space-between ;
+    /* supaya itemnya ada di tengah */
+    align-items: center;
+    /* supaya itemnya masuk kedalam */
+    padding: 0px 40px;
+    height: 50px;
+
+}
+/* fungsinya untuk herizotal class menunya */
+.menu{
+    display: flex;
+}
+
+/* mengatur jarak atara item home dan kawan-kawan */
+.menu li a{
+    padding: 10px 25px;
+}
+
+
+/* untuk mengatur huruf pada Muhammad Mirlani */
+nav .brand{
+  font-size:x-large;
+  /* mengubah ketebalan pada huruf */
+  font-weight: bold;
+}
+
+/* memberikan warna huruf pada Muhammad Mirlani */
+nav .brand  a{
+    color: white;
+    /* menghilangkan karis bawah defaultnya */
+    text-decoration: none;
+}
+
+/* memberikan warna huruf pada Home dan kawan-kawan */
+nav .menu li a{
+    color: white;
+    text-decoration: none;
+    /* mengubah ketebalan pada huruf */
+    font-weight: 200;
+}
+
+/* menghilangkan tanda titik pada itemnya */
+nav .menu li {
+   list-style: none;
+   padding: 10px;
+}
+
+/* mengubah warna pada saat kursol menyetuh  itemnya */
+nav .menu li:hover{
+    background-color: rgb(197, 186, 186);
+    border-radius: 3px;
+}
+
+/* menyebunyikan  menu yang ada di gallery saat dibuka */
+nav .menu .dropdown{
+    display: none;
+}
+
+/* fungsinya pada saat kita dekati kursor akan menampilkan menu yang ada di gealery */
+nav ul li:hover .dropdown {
+   display: block;
+   background-color: black;
+   /* menaikkan posisinya */
+   position: absolute;
+   margin-top: 10px;
+   padding: 5px;
+   border-radius: 5px;
+
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin-top: 40%;
+
+}
+

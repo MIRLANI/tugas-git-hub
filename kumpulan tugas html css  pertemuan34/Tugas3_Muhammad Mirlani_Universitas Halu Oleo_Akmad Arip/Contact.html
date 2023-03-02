@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        background-color: lightblue;
+        border-radius: 5px;
+      }
+      input,
+      textarea {
+        border-radius: 5px;
+      }
+      label {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      button {
+        background-color: rgb(127, 255, 133);
+        border-radius: 5px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        margin: 20px;
+        padding: 5px 20px;
+      }
+      body {
+        background-color: rgb(139, 148, 142);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <form action="">
+        <table cellpadding="10" cellspacing="0" align="center">
+          <tr>
+            <td colspan="2" align="center"><h1>Contact Me</h1></td>
+          </tr>
+          <tr>
+            <td><label for="eamail">Email</label></td>
+            <td>
+              <input
+                type="pesan"
+                name="eamail"
+                id="eamail"
+                placeholder="alamat email"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="nomor">Nomor Wa</label></td>
+            <td>
+              <input
+                type="number"
+                name="nomor"
+                id="nomor"
+                placeholder="Nomor Wa"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="pesan">Pesan </label></td>
+            <td>
+              <textarea
+                name="pesan"
+                id="pesan"
+                cols="80"
+                rows="4"
+                placeholder="Tulistkan pesan anda.."
+              ></textarea>
+            </td>
+          </tr>
+          <tr align="center">
+            <td colspan="2">
+              <button type="submit" name="kirim">Kirim</button>
+              <button type="reset" name="batal">Batal</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
